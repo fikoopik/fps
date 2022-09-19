@@ -104,7 +104,6 @@ end
 
 end
 
-sethiddenproperty(game.Lighting, "Technology", "Compatibility")
 for _,v in pairs(workspace:GetDescendants()) do
 if v.ClassName == "Part"
 or v.ClassName == "SpawnLocation"
